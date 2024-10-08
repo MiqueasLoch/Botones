@@ -1,0 +1,46 @@
+img {
+    width: 20px
+}
+
+a:hover {
+    opacity:0.85 ;
+    scale: 1.08;
+}
+
+a {
+    width: fit-content;
+    border-radius: 7px;
+   margin-top: 2%;
+   padding: 0.8%;
+   display: flex;
+   gap: -1%;
+   align-items: center;
+   text-decoration: none;
+   transition: 300ms;
+}
+
+#uno {
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+    font-weight:bold;
+   background: linear-gradient(to top left, white, red);
+}
+
+
+
+#dos {
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-weight:bold;
+   background: linear-gradient( RGB(199, 213, 224), rgb(27, 40, 56));
+}
+
+#tres {
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-weight:bold;
+   background: linear-gradient(to top left, Lime, Green);
+}
